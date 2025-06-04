@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PUCETEC Dev Challenge</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>PUCETEC Dev Challenge</h1>
+    <p>Una competencia para futuros desarrolladores web. ¡Demuestra tu talento!</p>
+    <button id="cambiar-tema">Cambiar tema</button>
+  </header>
+
+  <main>
+    <section id="formulario">
+      <h2>Regístrate</h2>
+      <form id="registroForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="carrera">Carrera:</label>
+        <input type="text" id="carrera" name="carrera" required>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Ediciones Anteriores</h2>
+      <ul>
+        <li>Dev Challenge 2022</li>
+        <li>Dev Challenge 2023</li>
+        <li>Dev Challenge AI Edition</li>
+      </ul>
+    </section>
+
+    <section id="participantes">
+      <h2>Participantes Destacados</h2>
+      <!-- Participantes cargados con JS -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Síguenos en nuestras redes:</p>
+    <a href="https://twitter.com/pucetec" target="_blank">Twitter</a> |
+    <a href="https://facebook.com/pucetec" target="_blank">Facebook</a> |
+    <a href="https://pucetec.edu.ec" target="_blank">Sitio oficial</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
