@@ -1,1 +1,0 @@
-# pucetec-dev-challenge
